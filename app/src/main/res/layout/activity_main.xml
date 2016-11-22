@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/bt_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"
+        />
+
+    <Button
+        android:id="@+id/bt_updata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="updata"
+        android:layout_below="@+id/bt_add"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/bt_findone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="findone"
+        android:layout_below="@+id/bt_updata"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <Button
+        android:id="@+id/bt_findall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="findall"
+        android:layout_below="@+id/bt_findone"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/deleteone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="deleteone"
+        android:layout_below="@+id/bt_findall"
+        android:layout_alignEnd="@+id/bt_findall" />
+
+    <Button
+        android:id="@+id/deleteall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="deleteall"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/deleteone"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/deleteall"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp" />
+
+</RelativeLayout>
+
+
+
+
