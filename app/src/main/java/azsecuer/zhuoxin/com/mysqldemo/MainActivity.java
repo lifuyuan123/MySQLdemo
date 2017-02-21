@@ -39,12 +39,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void initdata() {
-        myExpress.add(new People("yh","20","女"));
-        myExpress.add(new People("yhh","21","男"));
-        myExpress.add(new People("hyh","27","女"));
-        myExpress.add(new People("yhh","24","男"));
-        myExpress.add(new People("yyh","28","女"));
-        myExpress.add(new People("yhy","19","男"));
+        if(myExpress.findall().size()==0){
+            myExpress.add(new People("yh","20","女"));
+            myExpress.add(new People("yhh","21","男"));
+            myExpress.add(new People("hyh","27","女"));
+            myExpress.add(new People("yhh","24","男"));
+            myExpress.add(new People("yyh","28","女"));
+            myExpress.add(new People("yhy","19","男"));
+        }
+
     }
 
     @Override
